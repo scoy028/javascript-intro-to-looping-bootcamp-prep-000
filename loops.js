@@ -18,5 +18,7 @@ function whileLoop(aNum) {
 }
 
 function doWhileLoop(anArr2) {
-  
+  function incrementVariable() {
+    i = i + 1;
+  }
 }
