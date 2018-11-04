@@ -23,7 +23,7 @@ function doWhileLoop(anArr2) {
     i = i + 1;
   }
   do {
-    console.log();
+    anArr2.;
     incrementVariable();
   } while (anArr2.length > 0 && incrementVariable());
   return anArr2;
