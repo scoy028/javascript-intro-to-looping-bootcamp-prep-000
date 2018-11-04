@@ -8,3 +8,11 @@ function forLoop(anArr) {
   }
   return anArr;
 }
+
+function whileLoop(aNum) {
+  while (aNum > 0) {
+    console.log(aNum);
+    aNum--;
+  }
+  return "done";
+}
