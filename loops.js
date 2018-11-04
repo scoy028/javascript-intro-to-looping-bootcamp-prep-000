@@ -16,3 +16,7 @@ function whileLoop(aNum) {
   }
   return "done";
 }
+
+function doWhileLoop(anArr2) {
+  
+}
