@@ -23,7 +23,7 @@ function doWhileLoop(anArr2) {
     i = i + 1;
   }
   do {
-    anArr2.pop;
+    anArr2.pop();
     incrementVariable();
   } while (anArr2.length > 0 && incrementVariable());
   return anArr2;
