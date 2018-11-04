@@ -18,7 +18,13 @@ function whileLoop(aNum) {
 }
 
 function doWhileLoop(anArr2) {
+  var i = 0;
   function incrementVariable() {
     i = i + 1;
   }
+  do {
+    console.log();
+    incrementVariable();
+  } while (anArr2.length > 0 && incrementVariable());
+  return anArr2;
 }
