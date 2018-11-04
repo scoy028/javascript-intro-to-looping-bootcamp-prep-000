@@ -5,6 +5,6 @@ function forLoop(anArr) {
     } else {
       anArr.push(`I am ${i}  strange loops.`);
     }
-    return anArr;
   }
+  return anArr;
 }
